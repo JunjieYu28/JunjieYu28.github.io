@@ -18,7 +18,7 @@
   opacity: 0.6;
 }
 
-/* #halo-bg {
+#halo-bg {
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +26,7 @@
     height: 100%;
     z-index: -2;  // 置于其他背景下方
     opacity: 0.5;  // 调整透明度
-} */
+}
 
 body {
   background: transparent !important;
