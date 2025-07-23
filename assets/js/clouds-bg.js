@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     gyroControls: false,
     minHeight: 200.00,
     minWidth: 200.00,
-    skyColor: 0xd7bfff,  // 更浅的淡紫色天空
+    skyColor: 0xe6cfe6,  // 更浅的淡紫色天空
     cloudColor: 0xe6d9ff,  // 浅紫色云层
     cloudShadowColor: 0xb3a3cc,  // 浅紫阴影
     sunColor: 0xffd700,  // 金黄色太阳
