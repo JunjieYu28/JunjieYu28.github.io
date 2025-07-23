@@ -5,11 +5,11 @@ VANTA.CLOUDS({
   gyroControls: false,
   minHeight: 200.00,
   minWidth: 200.00,
-  skyColor: 0xadd8e6,  // 更浅的蓝色天空
-  cloudColor: 0xf0f8ff,  // 浅灰色云层
-  cloudShadowColor: 0x778899,  // 浅阴影
+  skyColor: 0xd7bfff,  // 更浅的淡紫色天空
+  cloudColor: 0xe6d9ff,  // 浅紫色云层
+  cloudShadowColor: 0xb3a3cc,  // 浅紫阴影
   sunColor: 0xffd700,  // 金黄色太阳
-  sunGlareColor: 0xfffacd,  // 浅黄色光晕，增强天空光晕特征
+  sunGlareColor: 0xffd700,  // 更亮的金黄色光晕，增强明显度
   sunlightColor: 0xfff5ee,  // 浅阳光色
   speed: 1.00
 });
@@ -28,7 +28,7 @@ VANTA.BIRDS({
   color1: 0x808080,  // 灰色鸟
   color2: 0xa9a9a9,  // 浅灰鸟
   colorMode: "variance",
-  quantity: 3.00,  // 少量鸟，偶尔飞过
+  quantity: 3.00,  // 少量鸟
   birdSize: 1.00,
   wingSpan: 30.00,
   speedLimit: 5.00,
