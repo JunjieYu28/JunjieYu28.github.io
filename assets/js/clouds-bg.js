@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
     gyroControls: false,
     minHeight: 200.00,
     minWidth: 200.00,
-    skyColor: 0xe6cfe6,  // 更浅的淡紫色天空
-    cloudColor: 0xe6d9ff,  // 浅紫色云层
-    cloudShadowColor: 0xb3a3cc,  // 浅紫阴影
+    skyColor: 0xadd8e6,  // 更浅的蓝色天空
+    cloudColor: 0xf0f8ff,  // 浅灰色云层
+    cloudShadowColor: 0x778899,  // 浅阴影
     sunColor: 0xffd700,  // 金黄色太阳
-    sunGlareColor: 0xfffacd,  // 更亮的金黄色光晕，增强明显度
+    sunGlareColor: 0xfffacd,  // 浅黄色光晕，增强天空光晕特征
     sunlightColor: 0xfff5ee,  // 浅阳光色
     speed: 1.00
   });
@@ -38,18 +38,18 @@ document.addEventListener('DOMContentLoaded', function() {
     cohesion: 20.00
   });
   
-  VANTA.HALO({
-    el: "#halo-bg",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    baseColor: 0xd7bfff,  // 浅紫基色
-    backgroundColor: 0x0,  // 透明背景
-    amplitudeFactor: 1.00,
-    xOffset: 0.00,
-    yOffset: 0.00,
-    size: 1.00
-  });
+  // VANTA.HALO({
+  //   el: "#halo-bg",
+  //   mouseControls: true,
+  //   touchControls: true,
+  //   gyroControls: false,
+  //   minHeight: 200.00,
+  //   minWidth: 200.00,
+  //   baseColor: 0xd7bfff,  // 浅紫基色
+  //   backgroundColor: 0x0,  // 透明背景
+  //   amplitudeFactor: 1.00,
+  //   xOffset: 0.00,
+  //   yOffset: 0.00,
+  //   size: 1.00
+  // });
 });
