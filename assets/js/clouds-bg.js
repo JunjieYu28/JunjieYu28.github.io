@@ -38,18 +38,18 @@ document.addEventListener('DOMContentLoaded', function() {
     cohesion: 20.00
   });
   
-  VANTA.HALO({
-    el: "#halo-bg",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    baseColor: 0xd7bfff,  // 浅紫基色
-    backgroundColor: 0x0,  // 透明背景
-    amplitudeFactor: 1.00,
-    xOffset: 0.00,
-    yOffset: 0.00,
-    size: 1.00
-  });
+  // VANTA.HALO({
+  //   el: "#halo-bg",
+  //   mouseControls: true,
+  //   touchControls: true,
+  //   gyroControls: false,
+  //   minHeight: 200.00,
+  //   minWidth: 200.00,
+  //   baseColor: 0xd7bfff,  // 浅紫基色
+  //   backgroundColor: 0x0,  // 透明背景
+  //   amplitudeFactor: 1.00,
+  //   xOffset: 0.00,
+  //   yOffset: 0.00,
+  //   size: 1.00
+  // });
 });
