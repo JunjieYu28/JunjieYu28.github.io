@@ -225,6 +225,18 @@
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
+      {% if author.xiaohongshu %}
+        <a href="{{ author.xiaohongshu }}"><i class="fas fa-fw fa-book" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.bilibili %}
+        <a href="{{ author.bilibili }}"><i class="fas fa-fw fa-video" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.outlook %}
+        <a href="mailto:{{ author.outlook }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.QQemail %}
+        <a href="mailto:{{ author.QQemail }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+{% endif %}
     </div>
   </div>
 </div>
