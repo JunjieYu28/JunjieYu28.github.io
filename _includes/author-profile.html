@@ -117,6 +117,18 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
+      {% endif %}
+      {% if author.xiaohongshu %}
+        <li><a href="{{ author.xiaohongshu }}"><i class="fas fa-fw fa-book" aria-hidden="true"></i> 小红书</a></li>
+      {% endif %}
+      {% if author.bilibili %}
+        <li><a href="{{ author.bilibili }}"><i class="fas fa-fw fa-video" aria-hidden="true"></i> bilibili</a></li>
+      {% endif %}
+      {% if author.outlook %}
+        <li><a href="mailto:{{ author.outlook }}"><i class="fab fa-fw fa-qq" aria-hidden="true"></i> outlook</a></li>
+      {% endif %}
+      {% if author.QQemail %}
+        <li><a href="mailto:{{ author.QQemail }}"><i class="fab fa-fw fa-qq" aria-hidden="true"></i> QQ邮箱</a></li>
 {% endif %}
     </ul>
       <div class="author__urls_sm">
