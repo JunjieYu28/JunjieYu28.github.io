@@ -45,11 +45,10 @@ My research interest includes neural machine translation and computer vision. I 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** --> 
 
 # 🔬 My Research
-<!-- 在这里添加您的研究方向和兴趣 
-- **Research Interests**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- **Current Focus**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
--->
+<!-- 在这里添加您的研究方向和兴趣 -->
+- **Research Interests**: Multi-modal understanding, Diffusion Models, CV, AI for games
+- **Current Focus**: Multi-model understanding
+<!-- - **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 # 📂 Projects
 
@@ -183,12 +182,12 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🎖 Honors and Awards
-<!-- - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2024* 致远荣誉奖学金 
+- *2021.09* 本科生C等优秀奖学金
 
 # 📖 Educations
-<!-- - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2023.09 - now*, <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">上海交通大学</a> <span style="font-size: 0.9em; color: #666;">人工智能卓越人才试点班</span> <span style="font-size: 0.9em; color: #888;">致远工科荣誉计划</span>
+- *2020.09 - 2023.06*, <a href="https://cqbz.cn/" target="_blank" rel="noopener">重庆第八中学校</a>
   
 <!--
 # 💬 Invited Talks
