@@ -54,15 +54,15 @@ My research interest includes neural machine translation and computer vision. I 
 # 📂 Projects
 
 <style>
-/* ===== GitHub-like Pinned Cards ===== */
+/* ===== GitHub-like Pinned Cards — refined ===== */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
-  margin: 10px 0 6px;
+  margin: 12px 0 6px;
 }
 @media (max-width: 820px){
-  .projects-grid { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; gap: 12px; }
 }
 :root{
   --card-bg: #fff;
@@ -70,7 +70,11 @@ My research interest includes neural machine translation and computer vision. I 
   --card-txt: #111827;
   --muted: #6b7280;
   --hover-bd: #d1d5db;
-  --shadow: 0 1px 0 rgba(27,31,36,0.04), 0 8px 24px rgba(140,149,159,0.2);
+  --shadow: 0 6px 20px rgba(17,24,39,0.06);
+  /* soft badge */
+  --badge-bg: #e9f2ff;
+  --badge-tx: #0b5bd3;
+  --badge-bd: #cfe0ff;
 }
 @media (prefers-color-scheme: dark){
   :root{
@@ -79,15 +83,20 @@ My research interest includes neural machine translation and computer vision. I 
     --card-txt: #c9d1d9;
     --muted: #8b949e;
     --hover-bd: #3d444d;
-    --shadow: 0 0 0 rgba(0,0,0,0);
+    --shadow: none;
+    --badge-bg: rgba(56,139,253,.18);
+    --badge-tx: #58a6ff;
+    --badge-bd: rgba(56,139,253,.3);
   }
 }
 .project-card{
+  position: relative;
   border: 1px solid var(--card-bd);
   background: var(--card-bg);
-  border-radius: 10px;
-  padding: 14px 14px 12px;
-  transition: border-color .2s ease, transform .12s ease, box-shadow .2s ease;
+  border-radius: 12px;
+  padding: 14px 16px 12px;
+  transition: border-color .18s ease, transform .12s ease, box-shadow .2s ease;
+  min-height: 140px; /* 等高，更整齐 */
 }
 .project-card:hover{
   border-color: var(--hover-bd);
@@ -98,116 +107,113 @@ My research interest includes neural machine translation and computer vision. I 
   display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
 }
 .project-title{
-  font-size: 16px; font-weight: 600; line-height: 1.25; margin: 0;
+  font-size: 16px; font-weight: 700; line-height: 1.25; margin: 0;
+  max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .project-title a{ text-decoration: none; color: var(--card-txt); }
-.project-title a:hover{ text-decoration: underline; }
-.badge{
-  font-size: 12px; padding: 2px 7px; border-radius: 999px;
-  border: 1px solid var(--card-bd); color: var(--muted);
-}
+.project-title a:hover, .project-title a:focus{ text-decoration: underline; }
+.project-title a:focus-visible{ outline: 2px solid var(--hover-bd); outline-offset: 2px; border-radius: 4px; }
+
 .project-desc{
-  color: var(--muted); font-size: 14px; line-height: 1.45; margin: 6px 0 10px;
+  color: var(--muted); font-size: 14px; line-height: 1.5; margin: 6px 0 12px;
 }
+
+/* 底部信息行：左侧语言，右侧徽章 */
 .project-meta{
   display: flex; align-items: center; gap: 14px; font-size: 13px; color: var(--muted);
 }
+.meta-left{ display: inline-flex; align-items: center; gap: 8px; }
 .lang-dot{
-  width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px;
-  vertical-align: -1px;
-}
-.meta-group{ display: flex; align-items: center; gap: 6px; }
-.meta-icon{
-  width: 16px; height: 16px; opacity: .8;
+  width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px; vertical-align: -1px;
 }
 
-/* “More Projects” */
-.more-projects{
-  margin-top: 12px; text-align: right;
+/* 软色徽章（右下角） */
+.meta-right{ margin-left: auto; }
+.badge{
+  font-size: 12px; padding: 3px 8px; border-radius: 999px;
+  background: var(--badge-bg); color: var(--badge-tx); border: 1px solid var(--badge-bd);
+  font-weight: 600;
 }
-.more-projects a{
-  font-weight: 600; text-decoration: none;
+.badge.badge-private{
+  --badge-bg: #ffeceb; --badge-tx: #cf222e; --badge-bd: #ffd3d0; /* Private 用淡红色 */
 }
+
+.more-projects{ margin-top: 6px; text-align: right; }
+.more-projects a{ font-weight: 600; text-decoration: none; }
 .more-projects a:hover{ text-decoration: underline; }
 </style>
 
 <div class="projects-grid">
 
-  <!-- Card 1 -->
+  <!-- 1 -->
   <div class="project-card">
     <div class="project-head">
-      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
       <h3 class="project-title"><a href="https://github.com/JunjieYu28/GUI-Project" target="_blank" rel="noopener">GUI-Project</a></h3>
-      <span class="badge">Public</span>
     </div>
     <p class="project-desc">Data preparation for training a GUI recognition model.</p>
     <div class="project-meta">
-      <span class="meta-group"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+      <span class="meta-right"><span class="badge">Public</span></span>
     </div>
   </div>
 
-  <!-- Card 2 -->
+  <!-- 2 -->
   <div class="project-card">
     <div class="project-head">
-      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
       <h3 class="project-title"><a href="https://github.com/JunjieYu28/ViT-on-Image-Classification" target="_blank" rel="noopener">ViT-on-Image-Classification</a></h3>
-      <span class="badge">Public</span>
     </div>
     <p class="project-desc">ViT on image classification, esp. small-scale datasets (CIFAR-10).</p>
     <div class="project-meta">
-      <span class="meta-group"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
+      <span class="meta-right"><span class="badge">Public</span></span>
     </div>
   </div>
 
-  <!-- Card 3 -->
+  <!-- 3 -->
   <div class="project-card">
     <div class="project-head">
-      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
       <h3 class="project-title"><a href="https://github.com/JunjieYu28/Regression-and-Classification-Prediction-of-Travellers" target="_blank" rel="noopener">Regression-and-Classification-Prediction-of-Travellers</a></h3>
-      <span class="badge">Public</span>
     </div>
     <p class="project-desc">Prediction of travellers based on historical travelling datasets (AI2611).</p>
     <div class="project-meta">
-      <span class="meta-group"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
+      <span class="meta-right"><span class="badge">Public</span></span>
     </div>
   </div>
 
-  <!-- Card 4 -->
+  <!-- 4 -->
   <div class="project-card">
     <div class="project-head">
-      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
       <h3 class="project-title"><a href="https://github.com/JunjieYu28/Voice-Based-Car-Controll" target="_blank" rel="noopener">Voice-Based-Car-Controll</a></h3>
-      <span class="badge">Public</span>
     </div>
     <p class="project-desc">Voice-based car control (AI2618 project).</p>
     <div class="project-meta">
-      <span class="meta-group"><span class="lang-dot" style="background:#555"></span>C</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
+      <span class="meta-right"><span class="badge">Public</span></span>
     </div>
   </div>
 
-  <!-- Card 5 -->
+  <!-- 5 -->
   <div class="project-card">
     <div class="project-head">
-      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
       <h3 class="project-title"><a href="https://github.com/JunjieYu28/LC3-Simulator-Implementation" target="_blank" rel="noopener">LC3-Simulator-Implementation</a></h3>
-      <span class="badge">Public</span>
     </div>
     <p class="project-desc">LC3 simulator implementation (CS2651 project).</p>
     <div class="project-meta">
-      <span class="meta-group"><span class="lang-dot" style="background:#555"></span>C</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
+      <span class="meta-right"><span class="badge">Public</span></span>
     </div>
   </div>
 
-  <!-- Card 6 -->
+  <!-- 6 -->
   <div class="project-card">
     <div class="project-head">
-      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
       <h3 class="project-title"><a href="https://github.com/JunjieYu28/JunjieYu28.github.io" target="_blank" rel="noopener">JunjieYu28.github.io</a></h3>
-      <span class="badge">Public</span>
     </div>
     <p class="project-desc">Augety's homepage (forked from acad-homepage).</p>
     <div class="project-meta">
-      <span class="meta-group"><span class="lang-dot" style="background:#c6538c"></span>SCSS</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#c6538c"></span>SCSS</span>
+      <span class="meta-right"><span class="badge">Public</span></span>
     </div>
   </div>
 
@@ -216,6 +222,7 @@ My research interest includes neural machine translation and computer vision. I 
 <div class="more-projects">
   <a href="https://github.com/JunjieYu28?tab=repositories" target="_blank" rel="noopener">More Projects →</a>
 </div>
+
 
 
 # 🎖 Honors and Awards
