@@ -116,7 +116,7 @@ My research interest includes neural machine translation and computer vision. I 
   <!-- 1 -->
   <div class="project-card">
     <h3 class="project-title"><a href="https://github.com/JunjieYu28/GUI-Project" target="_blank" rel="noopener">GUI-Project</a></h3>
-    <p class="project-desc">Data preparation for training a GUI recognition model.</p>
+    <p class="project-desc">Data preparation for training a GUI recognition model for future GUI Agent.</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
@@ -136,7 +136,7 @@ My research interest includes neural machine translation and computer vision. I 
   <!-- 3 -->
   <div class="project-card">
     <h3 class="project-title"><a href="https://github.com/JunjieYu28/Regression-and-Classification-Prediction-of-Travellers" target="_blank" rel="noopener">Regression-and-Classification-Prediction-of-Travellers</a></h3>
-    <p class="project-desc">Prediction of travellers based on historical travelling datasets (AI2611).</p>
+    <p class="project-desc">Prediction of travellers based on historical travelling datasets (ml).</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
@@ -146,7 +146,7 @@ My research interest includes neural machine translation and computer vision. I 
   <!-- 4 -->
   <div class="project-card">
     <h3 class="project-title"><a href="https://github.com/JunjieYu28/Voice-Based-Car-Controll" target="_blank" rel="noopener">Voice-Based-Car-Controll</a></h3>
-    <p class="project-desc">Voice-based car control (AI2618 project).</p>
+    <p class="project-desc">A voice-controlled car powered by an speech recognition model trained on Edge Impulse and an ESP32 microcontroller, connected via Bluetooth.</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
@@ -156,7 +156,7 @@ My research interest includes neural machine translation and computer vision. I 
   <!-- 5 -->
   <div class="project-card">
     <h3 class="project-title"><a href="https://github.com/JunjieYu28/LC3-Simulator-Implementation" target="_blank" rel="noopener">LC3-Simulator-Implementation</a></h3>
-    <p class="project-desc">LC3 simulator implementation (CS2651 project).</p>
+    <p class="project-desc">LC3 simulator implementation.</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
