@@ -146,7 +146,7 @@ My research interest includes neural machine translation and computer vision. I 
   <!-- 4 -->
   <div class="project-card">
     <h3 class="project-title"><a href="https://github.com/JunjieYu28/Voice-Based-Car-Controll" target="_blank" rel="noopener">Voice-Based-Car-Controll</a></h3>
-    <p class="project-desc">A voice-controlled car powered by an speech recognition model trained on Edge Impulse and an ESP32 microcontroller, connected via Bluetooth.</p>
+    <p class="project-desc">A voice-controlled car powered by an speech recognition model trained on Edge Impulse and an ESP32 microcontroller.</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
