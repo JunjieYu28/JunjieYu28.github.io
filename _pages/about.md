@@ -54,166 +54,122 @@ My research interest includes neural machine translation and computer vision. I 
 # 📂 Projects
 
 <style>
-/* ===== GitHub-like Pinned Cards — refined ===== */
-.projects-grid {
+/* ===== Refined pinned cards (no overflow, compact) ===== */
+.projects-grid{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
   margin: 12px 0 6px;
 }
-@media (max-width: 820px){
-  .projects-grid { grid-template-columns: 1fr; gap: 12px; }
-}
+@media (max-width: 820px){ .projects-grid{ grid-template-columns: 1fr; gap: 12px; } }
+
 :root{
-  --card-bg: #fff;
-  --card-bd: #e5e7eb;
-  --card-txt: #111827;
-  --muted: #6b7280;
-  --hover-bd: #d1d5db;
-  --shadow: 0 6px 20px rgba(17,24,39,0.06);
-  /* soft badge */
-  --badge-bg: #e9f2ff;
-  --badge-tx: #0b5bd3;
-  --badge-bd: #cfe0ff;
+  --pj-card-bg:#fff; --pj-card-bd:#e5e7eb; --pj-card-tx:#111827; --pj-muted:#6b7280;
+  --pj-hover-bd:#d1d5db; --pj-shadow:0 6px 20px rgba(17,24,39,.06);
+  --pj-badge-bg:#e9f2ff; --pj-badge-tx:#0b5bd3; --pj-badge-bd:#cfe0ff;
+  --pj-badge-bg-private:#ffeceb; --pj-badge-tx-private:#cf222e; --pj-badge-bd-private:#ffd3d0;
 }
 @media (prefers-color-scheme: dark){
   :root{
-    --card-bg: #0d1117;
-    --card-bd: #30363d;
-    --card-txt: #c9d1d9;
-    --muted: #8b949e;
-    --hover-bd: #3d444d;
-    --shadow: none;
-    --badge-bg: rgba(56,139,253,.18);
-    --badge-tx: #58a6ff;
-    --badge-bd: rgba(56,139,253,.3);
+    --pj-card-bg:#0d1117; --pj-card-bd:#30363d; --pj-card-tx:#c9d1d9; --pj-muted:#8b949e;
+    --pj-hover-bd:#3d444d; --pj-shadow:none;
+    --pj-badge-bg:rgba(56,139,253,.18); --pj-badge-tx:#58a6ff; --pj-badge-bd:rgba(56,139,253,.3);
+    --pj-badge-bg-private:rgba(255,129,130,.18); --pj-badge-tx-private:#ffa3a5; --pj-badge-bd-private:rgba(255,129,130,.3);
   }
 }
+
 .project-card{
-  position: relative;
-  border: 1px solid var(--card-bd);
-  background: var(--card-bg);
-  border-radius: 12px;
-  padding: 14px 16px 12px;
-  transition: border-color .18s ease, transform .12s ease, box-shadow .2s ease;
-  min-height: 140px; /* 等高，更整齐 */
+  border:1px solid var(--pj-card-bd); background:var(--pj-card-bg); color:var(--pj-card-tx);
+  border-radius:12px; padding:12px 14px; transition:border-color .18s, transform .12s, box-shadow .2s;
+  display:flex; flex-direction:column; gap:8px;
 }
-.project-card:hover{
-  border-color: var(--hover-bd);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow);
-}
-.project-head{
-  display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
-}
-.project-title{
-  font-size: 16px; font-weight: 700; line-height: 1.25; margin: 0;
-  max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-}
-.project-title a{ text-decoration: none; color: var(--card-txt); }
-.project-title a:hover, .project-title a:focus{ text-decoration: underline; }
-.project-title a:focus-visible{ outline: 2px solid var(--hover-bd); outline-offset: 2px; border-radius: 4px; }
+.project-card:hover{ border-color:var(--pj-hover-bd); transform:translateY(-2px); box-shadow:var(--pj-shadow); }
 
-.project-desc{
-  color: var(--muted); font-size: 14px; line-height: 1.5; margin: 6px 0 12px;
-}
+.project-title{ font-size:16px; font-weight:700; line-height:1.25; margin:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.project-title a{ color:inherit; text-decoration:none; }
+.project-title a:hover{ text-decoration:underline; }
 
-/* 底部信息行：左侧语言，右侧徽章 */
+.project-desc{ color:var(--pj-muted); font-size:14px; line-height:1.5; margin:0; }
+
 .project-meta{
-  display: flex; align-items: center; gap: 14px; font-size: 13px; color: var(--muted);
+  display:flex; align-items:center; gap:14px; font-size:13px; color:var(--pj-muted); margin-top:2px;
 }
-.meta-left{ display: inline-flex; align-items: center; gap: 8px; }
-.lang-dot{
-  width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px; vertical-align: -1px;
-}
+.meta-left{ display:inline-flex; align-items:center; gap:8px; }
+.lang-dot{ width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:6px; vertical-align:-1px; }
 
-/* 软色徽章（右下角） */
-.meta-right{ margin-left: auto; }
-.badge{
-  font-size: 12px; padding: 3px 8px; border-radius: 999px;
-  background: var(--badge-bg); color: var(--badge-tx); border: 1px solid var(--badge-bd);
-  font-weight: 600;
+.meta-right{ margin-left:auto; }
+.pj-badge{
+  display:inline-block;
+  font-size:12px; line-height:1; padding:6px 10px; border-radius:999px;
+  background:var(--pj-badge-bg); color:var(--pj-badge-tx); border:1px solid var(--pj-badge-bd);
+  font-weight:600; white-space:nowrap; vertical-align:middle;
 }
-.badge.badge-private{
-  --badge-bg: #ffeceb; --badge-tx: #cf222e; --badge-bd: #ffd3d0; /* Private 用淡红色 */
-}
+.pj-badge.pj-private{ background:var(--pj-badge-bg-private); color:var(--pj-badge-tx-private); border-color:var(--pj-badge-bd-private); }
 
-.more-projects{ margin-top: 6px; text-align: right; }
-.more-projects a{ font-weight: 600; text-decoration: none; }
-.more-projects a:hover{ text-decoration: underline; }
+.more-projects{ margin-top:6px; text-align:right; }
+.more-projects a{ font-weight:600; text-decoration:none; }
+.more-projects a:hover{ text-decoration:underline; }
 </style>
 
 <div class="projects-grid">
 
   <!-- 1 -->
   <div class="project-card">
-    <div class="project-head">
-      <h3 class="project-title"><a href="https://github.com/JunjieYu28/GUI-Project" target="_blank" rel="noopener">GUI-Project</a></h3>
-    </div>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/GUI-Project" target="_blank" rel="noopener">GUI-Project</a></h3>
     <p class="project-desc">Data preparation for training a GUI recognition model.</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-      <span class="meta-right"><span class="badge">Public</span></span>
+      <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
 
   <!-- 2 -->
   <div class="project-card">
-    <div class="project-head">
-      <h3 class="project-title"><a href="https://github.com/JunjieYu28/ViT-on-Image-Classification" target="_blank" rel="noopener">ViT-on-Image-Classification</a></h3>
-    </div>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/ViT-on-Image-Classification" target="_blank" rel="noopener">ViT-on-Image-Classification</a></h3>
     <p class="project-desc">ViT on image classification, esp. small-scale datasets (CIFAR-10).</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
-      <span class="meta-right"><span class="badge">Public</span></span>
+      <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
 
   <!-- 3 -->
   <div class="project-card">
-    <div class="project-head">
-      <h3 class="project-title"><a href="https://github.com/JunjieYu28/Regression-and-Classification-Prediction-of-Travellers" target="_blank" rel="noopener">Regression-and-Classification-Prediction-of-Travellers</a></h3>
-    </div>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/Regression-and-Classification-Prediction-of-Travellers" target="_blank" rel="noopener">Regression-and-Classification-Prediction-of-Travellers</a></h3>
     <p class="project-desc">Prediction of travellers based on historical travelling datasets (AI2611).</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
-      <span class="meta-right"><span class="badge">Public</span></span>
+      <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
 
   <!-- 4 -->
   <div class="project-card">
-    <div class="project-head">
-      <h3 class="project-title"><a href="https://github.com/JunjieYu28/Voice-Based-Car-Controll" target="_blank" rel="noopener">Voice-Based-Car-Controll</a></h3>
-    </div>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/Voice-Based-Car-Controll" target="_blank" rel="noopener">Voice-Based-Car-Controll</a></h3>
     <p class="project-desc">Voice-based car control (AI2618 project).</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
-      <span class="meta-right"><span class="badge">Public</span></span>
+      <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
 
   <!-- 5 -->
   <div class="project-card">
-    <div class="project-head">
-      <h3 class="project-title"><a href="https://github.com/JunjieYu28/LC3-Simulator-Implementation" target="_blank" rel="noopener">LC3-Simulator-Implementation</a></h3>
-    </div>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/LC3-Simulator-Implementation" target="_blank" rel="noopener">LC3-Simulator-Implementation</a></h3>
     <p class="project-desc">LC3 simulator implementation (CS2651 project).</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
-      <span class="meta-right"><span class="badge">Public</span></span>
+      <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
 
   <!-- 6 -->
   <div class="project-card">
-    <div class="project-head">
-      <h3 class="project-title"><a href="https://github.com/JunjieYu28/JunjieYu28.github.io" target="_blank" rel="noopener">JunjieYu28.github.io</a></h3>
-    </div>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/JunjieYu28.github.io" target="_blank" rel="noopener">JunjieYu28.github.io</a></h3>
     <p class="project-desc">Augety's homepage (forked from acad-homepage).</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#c6538c"></span>SCSS</span>
-      <span class="meta-right"><span class="badge">Public</span></span>
+      <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
 
@@ -222,6 +178,7 @@ My research interest includes neural machine translation and computer vision. I 
 <div class="more-projects">
   <a href="https://github.com/JunjieYu28?tab=repositories" target="_blank" rel="noopener">More Projects →</a>
 </div>
+
 
 
 
