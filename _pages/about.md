@@ -79,7 +79,90 @@ My research interest includes neural machine translation and computer vision. I 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+<!-- ===== Internships (timeline) ===== -->
+<style>
+/* ------- Internships timeline ------- */
+.internships{ margin: 6px 0 24px; }
+.timeline{ position:relative; margin-left:6px; }
+.timeline::before{
+  content:""; position:absolute; left:18px; top:6px; bottom:6px; width:2px;
+  background:var(--tl-line,#e5e7eb);
+}
+.tl-item{ position:relative; padding-left:56px; margin:0 0 26px; }
+.tl-icon{
+  position:absolute; left:0; top:0;
+  width:36px; height:36px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--tl-icon-bg,#e9f2ff);
+  border:1px solid var(--tl-icon-bd,#cfe0ff);
+  color:var(--tl-icon-tx,#0b5bd3);
+}
+.tl-icon svg{ width:18px; height:18px; }
+.tl-title{ margin:0; font-size:18px; font-weight:700; color:var(--tl-title,#111827); line-height:1.25; }
+.tl-subtitle{ margin:2px 0 0; color:var(--tl-muted,#6b7280); }
+.tl-date{ margin-top:2px; font-size:14px; color:var(--tl-muted,#6b7280); }
+.tl-body{ margin-top:10px; }
+.tl-body .label{ font-weight:600; color:var(--tl-title,#111827); }
+.tl-body ul{ margin:6px 0 0; padding-left:18px; color:var(--tl-muted,#6b7280); }
+.tl-body li{ margin-bottom:6px; }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark){
+  .timeline::before{ background:var(--tl-line,#30363d); }
+  .tl-title{ color:var(--tl-title,#c9d1d9); }
+  .tl-subtitle,.tl-date,.tl-body ul{ color:var(--tl-muted,#8b949e); }
+  .tl-icon{ background:rgba(56,139,253,.18); border-color:rgba(56,139,253,.3); color:#58a6ff; }
+}
+
+/* Small screens */
+@media (max-width:560px){
+  .tl-item{ padding-left:52px; }
+  .tl-title{ font-size:16px; }
+}
+</style>
+
+<div class="internships">
+  <div class="timeline">
+    <!-- Summer Research Internship -->
+    <div class="tl-item">
+      <span class="tl-icon" aria-hidden="true">
+        <!-- briefcase icon -->
+        <svg viewBox="0 0 24 24" fill="currentColor" role="img">
+          <path d="M10 6h4a2 2 0 0 1 2 2h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h3a2 2 0 0 1 2-2zm0 2H8a1 1 0 0 0-1 1H5a1 1 0 0 0-1 1v2h16v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1z"/>
+        </svg>
+      </span>
+      <h3 class="tl-title">Summer Research Internship</h3>
+      <div class="tl-subtitle">SJTU — Artificial Intelligence Institute, DeepVision Lab</div>
+      <div class="tl-date">July 2024 – September 2024</div>
+      <div class="tl-body">
+        <div class="label">Responsibilities include:</div>
+        <ul>
+          <li>Computer Vision</li>
+          <li>Learned to read papers and reproduced basic computer vision algorithms</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Research Internship -->
+    <div class="tl-item">
+      <span class="tl-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor" role="img">
+          <path d="M10 6h4a2 2 0 0 1 2 2h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h3a2 2 0 0 1 2-2zm0 2H8a1 1 0 0 0-1 1H5a1 1 0 0 0-1 1v2h16v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1z"/>
+        </svg>
+      </span>
+      <h3 class="tl-title">Research Internship</h3>
+      <div class="tl-subtitle">SJTU — Artificial Intelligence Institute, DeepVision Lab</div>
+      <div class="tl-date">October 2024 – Present</div>
+      <div class="tl-body">
+        <div class="label">Responsibilities include:</div>
+        <ul>
+          <li>PEFT (Parameter-Efficient Fine-Tuning) research</li>
+          <li>Model merging related research</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 # 📂 Projects
 
