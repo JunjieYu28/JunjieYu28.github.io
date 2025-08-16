@@ -51,12 +51,27 @@ My research interest includes neural machine translation and computer vision. I 
 <!-- - **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 # 🎖 Honors and Awards
-- *2024* 致远荣誉奖学金 
-- *2024* 本科生C等优秀奖学金
+- *2023.12* 致远荣誉奖学金
+- *2024.11* 本科生C等优秀奖学金
+- *2024.12* 致远荣誉奖学金
 
 # 📖 Educations
-- *2023.09 - now*, <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">上海交通大学</a> <span style="font-size: 0.9em; color: #666;">人工智能卓越人才试点班</span> <span style="font-size: 0.9em; color: #888;">致远工科荣誉计划</span>
-- *2020.09 - 2023.06*, <a href="https://cqbz.cn/" target="_blank" rel="noopener">重庆第八中学校</a>
+<style>
+/* 链接：默认继承文本颜色、无下划线；悬浮/聚焦时出现下划线 */
+.link-clean,
+.link-clean:visited{
+  color: inherit;
+  text-decoration: none;
+}
+.link-clean:hover,
+.link-clean:focus{
+  text-decoration: underline;
+}
+</style>
+
+- *2023.09 - now*, <a class="link-clean" href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">上海交通大学</a> <span style="font-size: 0.9em; color: #666;">人工智能卓越人才试点班</span> <span style="font-size: 0.9em; color: #888;">致远工科荣誉计划</span>
+- *2020.09 - 2023.06*, <a class="link-clean" href="https://cqbz.cn/" target="_blank" rel="noopener">重庆第八中学校</a>
+
   
 <!--
 # 💬 Invited Talks
