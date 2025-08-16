@@ -51,12 +51,172 @@ My research interest includes neural machine translation and computer vision. I 
 - **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 -->
 
-# 💻 Projects
-<!-- 在这里添加您的项目信息 
-- **[Project Name 1]** - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- **[Project Name 2]** - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- **[Project Name 3]** - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
--->
+# 📂 Projects
+
+<style>
+/* ===== GitHub-like Pinned Cards ===== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 10px 0 6px;
+}
+@media (max-width: 820px){
+  .projects-grid { grid-template-columns: 1fr; }
+}
+:root{
+  --card-bg: #fff;
+  --card-bd: #e5e7eb;
+  --card-txt: #111827;
+  --muted: #6b7280;
+  --hover-bd: #d1d5db;
+  --shadow: 0 1px 0 rgba(27,31,36,0.04), 0 8px 24px rgba(140,149,159,0.2);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --card-bg: #0d1117;
+    --card-bd: #30363d;
+    --card-txt: #c9d1d9;
+    --muted: #8b949e;
+    --hover-bd: #3d444d;
+    --shadow: 0 0 0 rgba(0,0,0,0);
+  }
+}
+.project-card{
+  border: 1px solid var(--card-bd);
+  background: var(--card-bg);
+  border-radius: 10px;
+  padding: 14px 14px 12px;
+  transition: border-color .2s ease, transform .12s ease, box-shadow .2s ease;
+}
+.project-card:hover{
+  border-color: var(--hover-bd);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.project-head{
+  display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
+}
+.project-title{
+  font-size: 16px; font-weight: 600; line-height: 1.25; margin: 0;
+}
+.project-title a{ text-decoration: none; color: var(--card-txt); }
+.project-title a:hover{ text-decoration: underline; }
+.badge{
+  font-size: 12px; padding: 2px 7px; border-radius: 999px;
+  border: 1px solid var(--card-bd); color: var(--muted);
+}
+.project-desc{
+  color: var(--muted); font-size: 14px; line-height: 1.45; margin: 6px 0 10px;
+}
+.project-meta{
+  display: flex; align-items: center; gap: 14px; font-size: 13px; color: var(--muted);
+}
+.lang-dot{
+  width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px;
+  vertical-align: -1px;
+}
+.meta-group{ display: flex; align-items: center; gap: 6px; }
+.meta-icon{
+  width: 16px; height: 16px; opacity: .8;
+}
+
+/* “More Projects” */
+.more-projects{
+  margin-top: 12px; text-align: right;
+}
+.more-projects a{
+  font-weight: 600; text-decoration: none;
+}
+.more-projects a:hover{ text-decoration: underline; }
+</style>
+
+<div class="projects-grid">
+
+  <!-- Card 1 -->
+  <div class="project-card">
+    <div class="project-head">
+      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
+      <h3 class="project-title"><a href="https://github.com/JunjieYu28/GUI-Project" target="_blank" rel="noopener">GUI-Project</a></h3>
+      <span class="badge">Public</span>
+    </div>
+    <p class="project-desc">Data preparation for training a GUI recognition model.</p>
+    <div class="project-meta">
+      <span class="meta-group"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="project-card">
+    <div class="project-head">
+      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
+      <h3 class="project-title"><a href="https://github.com/JunjieYu28/ViT-on-Image-Classification" target="_blank" rel="noopener">ViT-on-Image-Classification</a></h3>
+      <span class="badge">Public</span>
+    </div>
+    <p class="project-desc">ViT on image classification, esp. small-scale datasets (CIFAR-10).</p>
+    <div class="project-meta">
+      <span class="meta-group"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="project-card">
+    <div class="project-head">
+      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
+      <h3 class="project-title"><a href="https://github.com/JunjieYu28/Regression-and-Classification-Prediction-of-Travellers" target="_blank" rel="noopener">Regression-and-Classification-Prediction-of-Travellers</a></h3>
+      <span class="badge">Public</span>
+    </div>
+    <p class="project-desc">Prediction of travellers based on historical travelling datasets (AI2611).</p>
+    <div class="project-meta">
+      <span class="meta-group"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="project-card">
+    <div class="project-head">
+      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
+      <h3 class="project-title"><a href="https://github.com/JunjieYu28/Voice-Based-Car-Controll" target="_blank" rel="noopener">Voice-Based-Car-Controll</a></h3>
+      <span class="badge">Public</span>
+    </div>
+    <p class="project-desc">Voice-based car control (AI2618 project).</p>
+    <div class="project-meta">
+      <span class="meta-group"><span class="lang-dot" style="background:#555"></span>C</span>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="project-card">
+    <div class="project-head">
+      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
+      <h3 class="project-title"><a href="https://github.com/JunjieYu28/LC3-Simulator-Implementation" target="_blank" rel="noopener">LC3-Simulator-Implementation</a></h3>
+      <span class="badge">Public</span>
+    </div>
+    <p class="project-desc">LC3 simulator implementation (CS2651 project).</p>
+    <div class="project-meta">
+      <span class="meta-group"><span class="lang-dot" style="background:#555"></span>C</span>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="project-card">
+    <div class="project-head">
+      <svg class="meta-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h7A2.5 2.5 0 0 1 14 2.5v11A2.5 2.5 0 0 1 11.5 16h-7A2.5 2.5 0 0 1 2 13.5v-11ZM4.5 1.5a1 1 0 0 0-1 1V13.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2.5a1 1 0 0 0-1-1h-7Z"/></svg>
+      <h3 class="project-title"><a href="https://github.com/JunjieYu28/JunjieYu28.github.io" target="_blank" rel="noopener">JunjieYu28.github.io</a></h3>
+      <span class="badge">Public</span>
+    </div>
+    <p class="project-desc">Augety's homepage (forked from acad-homepage).</p>
+    <div class="project-meta">
+      <span class="meta-group"><span class="lang-dot" style="background:#c6538c"></span>SCSS</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="more-projects">
+  <a href="https://github.com/JunjieYu28?tab=repositories" target="_blank" rel="noopener">More Projects →</a>
+</div>
+
 
 # 🎖 Honors and Awards
 <!-- - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
