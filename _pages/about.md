@@ -50,6 +50,22 @@ My research interest includes neural machine translation and computer vision. I 
 - **Current Focus**: Multi-model understanding
 <!-- - **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
+# 🎖 Honors and Awards
+- *2024* 致远荣誉奖学金 
+- *2024* 本科生C等优秀奖学金
+
+# 📖 Educations
+- *2023.09 - now*, <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">上海交通大学</a> <span style="font-size: 0.9em; color: #666;">人工智能卓越人才试点班</span> <span style="font-size: 0.9em; color: #888;">致远工科荣誉计划</span>
+- *2020.09 - 2023.06*, <a href="https://cqbz.cn/" target="_blank" rel="noopener">重庆第八中学校</a>
+  
+<!--
+# 💬 Invited Talks
+ - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+
+# 💻 Internships
+<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+
 # 📂 Projects
 
 <style>
@@ -152,47 +168,8 @@ My research interest includes neural machine translation and computer vision. I 
     </div>
   </div>
 
-  <!-- 5 -->
-  <div class="project-card">
-    <h3 class="project-title"><a href="https://github.com/JunjieYu28/LC3-Simulator-Implementation" target="_blank" rel="noopener">LC3-Simulator-Implementation</a></h3>
-    <p class="project-desc">LC3 simulator implementation.</p>
-    <div class="project-meta">
-      <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
-      <span class="meta-right"><span class="pj-badge">Public</span></span>
-    </div>
-  </div>
-
-  <!-- 6 -->
-  <div class="project-card">
-    <h3 class="project-title"><a href="https://github.com/JunjieYu28/JunjieYu28.github.io" target="_blank" rel="noopener">JunjieYu28.github.io</a></h3>
-    <p class="project-desc">Augety's homepage (forked from acad-homepage).</p>
-    <div class="project-meta">
-      <span class="meta-left"><span class="lang-dot" style="background:#c6538c"></span>SCSS</span>
-      <span class="meta-right"><span class="pj-badge">Public</span></span>
-    </div>
-  </div>
-
 </div>
 
 <div class="more-projects">
   <a href="https://github.com/JunjieYu28?tab=repositories" target="_blank" rel="noopener">More Projects →</a>
 </div>
-
-
-
-
-# 🎖 Honors and Awards
-- *2024* 致远荣誉奖学金 
-- *2021.09* 本科生C等优秀奖学金
-
-# 📖 Educations
-- *2023.09 - now*, <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">上海交通大学</a> <span style="font-size: 0.9em; color: #666;">人工智能卓越人才试点班</span> <span style="font-size: 0.9em; color: #888;">致远工科荣誉计划</span>
-- *2020.09 - 2023.06*, <a href="https://cqbz.cn/" target="_blank" rel="noopener">重庆第八中学校</a>
-  
-<!--
-# 💬 Invited Talks
- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-
-# 💻 Internships
-<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
