@@ -56,113 +56,73 @@ My research interest includes neural machine translation and computer vision. I 
 - *2024.12* 致远荣誉奖学金
 
 # 📖 Educations
+
 <style>
-/* 链接：默认继承文本颜色、无下划线；悬浮/聚焦时出现下划线 */
-.link-clean,
-.link-clean:visited{
-  color: inherit;
-  text-decoration: none;
+/* ===== Education section styles ===== */
+:root{
+  --edu-text:#111827;
+  --edu-muted:#6b7280;
+  --edu-accent:#0b5bd3;           /* 程序标签颜色（可自定义） */
+  --edu-border:#e5e7eb;
 }
-.link-clean:hover,
-.link-clean:focus{
-  text-decoration: underline;
+@media (prefers-color-scheme: dark){
+  :root{
+    --edu-text:#c9d1d9;
+    --edu-muted:#8b949e;
+    --edu-accent:#58a6ff;
+    --edu-border:#30363d;
+  }
 }
+
+.edu-list{ display:flex; flex-direction:column; gap:10px; margin:6px 0 0; }
+.edu-item{ padding:10px 12px; border:1px solid var(--edu-border); border-radius:10px; }
+.edu-time{ font-size:14px; color:var(--edu-muted); margin-bottom:2px; }
+.edu-school a{
+  font-size:16px; font-weight:700; color:var(--edu-text);
+  text-decoration:none; transition:text-decoration-color .15s ease;
+}
+.edu-school a:hover{ text-decoration:underline; text-underline-offset:2px; }
+
+.edu-programs{ margin-top:4px; }
+.edu-program{
+  font-size:13px;                   /* 更小字号 */
+  color:var(--edu-accent);          /* 另一种颜色 */
+  font-weight:600;
+}
+.edu-sep{ margin:0 6px; color:var(--edu-muted); }
 </style>
 
-- *2023.09 - now*, <a class="link-clean" href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">上海交通大学</a> <span style="font-size: 0.9em; color: #666;">人工智能卓越人才试点班</span> <span style="font-size: 0.9em; color: #888;">致远工科荣誉计划</span>
-- *2020.09 - 2023.06*, <a class="link-clean" href="https://cqbz.cn/" target="_blank" rel="noopener">重庆第八中学校</a>
+<div class="edu-list">
 
-  
+  <!-- 1) SJTU -->
+  <div class="edu-item">
+    <div class="edu-time">2023.09 – now</div>
+    <div class="edu-school">
+      <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">上海交通大学</a>
+    </div>
+    <div class="edu-programs">
+      <span class="edu-program">人工智能卓越人才试点班</span>
+      <span class="edu-sep">·</span>
+      <span class="edu-program">致远工科荣誉计划</span>
+    </div>
+  </div>
+
+  <!-- 2) CQ No.8 -->
+  <div class="edu-item">
+    <div class="edu-time">2020.09 – 2023.06</div>
+    <div class="edu-school">
+      <a href="https://www.cq8z.net/" target="_blank" rel="noopener">重庆第八中学校</a>
+    </div>
+  </div>
+
+</div>
+
 <!--
 # 💬 Invited Talks
  - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-<!-- ===== Internships (timeline) ===== -->
-<style>
-/* ------- Internships timeline ------- */
-.internships{ margin: 6px 0 24px; }
-.timeline{ position:relative; margin-left:6px; }
-.timeline::before{
-  content:""; position:absolute; left:18px; top:6px; bottom:6px; width:2px;
-  background:var(--tl-line,#e5e7eb);
-}
-.tl-item{ position:relative; padding-left:56px; margin:0 0 26px; }
-.tl-icon{
-  position:absolute; left:0; top:0;
-  width:36px; height:36px; border-radius:50%;
-  display:flex; align-items:center; justify-content:center;
-  background:var(--tl-icon-bg,#e9f2ff);
-  border:1px solid var(--tl-icon-bd,#cfe0ff);
-  color:var(--tl-icon-tx,#0b5bd3);
-}
-.tl-icon svg{ width:18px; height:18px; }
-.tl-title{ margin:0; font-size:18px; font-weight:700; color:var(--tl-title,#111827); line-height:1.25; }
-.tl-subtitle{ margin:2px 0 0; color:var(--tl-muted,#6b7280); }
-.tl-date{ margin-top:2px; font-size:14px; color:var(--tl-muted,#6b7280); }
-.tl-body{ margin-top:10px; }
-.tl-body .label{ font-weight:600; color:var(--tl-title,#111827); }
-.tl-body ul{ margin:6px 0 0; padding-left:18px; color:var(--tl-muted,#6b7280); }
-.tl-body li{ margin-bottom:6px; }
-
-/* Dark mode */
-@media (prefers-color-scheme: dark){
-  .timeline::before{ background:var(--tl-line,#30363d); }
-  .tl-title{ color:var(--tl-title,#c9d1d9); }
-  .tl-subtitle,.tl-date,.tl-body ul{ color:var(--tl-muted,#8b949e); }
-  .tl-icon{ background:rgba(56,139,253,.18); border-color:rgba(56,139,253,.3); color:#58a6ff; }
-}
-
-/* Small screens */
-@media (max-width:560px){
-  .tl-item{ padding-left:52px; }
-  .tl-title{ font-size:16px; }
-}
-</style>
-
-<div class="internships">
-  <div class="timeline">
-    <!-- Summer Research Internship -->
-    <div class="tl-item">
-      <span class="tl-icon" aria-hidden="true">
-        <!-- briefcase icon -->
-        <svg viewBox="0 0 24 24" fill="currentColor" role="img">
-          <path d="M10 6h4a2 2 0 0 1 2 2h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h3a2 2 0 0 1 2-2zm0 2H8a1 1 0 0 0-1 1H5a1 1 0 0 0-1 1v2h16v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1z"/>
-        </svg>
-      </span>
-      <h3 class="tl-title">Summer Research Internship</h3>
-      <div class="tl-subtitle">SJTU — Artificial Intelligence Institute, DeepVision Lab</div>
-      <div class="tl-date">July 2024 – September 2024</div>
-      <div class="tl-body">
-        <div class="label">Responsibilities include:</div>
-        <ul>
-          <li>Computer Vision</li>
-          <li>Learned to read papers and reproduced basic computer vision algorithms</li>
-        </ul>
-      </div>
-    </div>
-    <!-- Research Internship -->
-    <div class="tl-item">
-      <span class="tl-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="currentColor" role="img">
-          <path d="M10 6h4a2 2 0 0 1 2 2h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h3a2 2 0 0 1 2-2zm0 2H8a1 1 0 0 0-1 1H5a1 1 0 0 0-1 1v2h16v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1z"/>
-        </svg>
-      </span>
-      <h3 class="tl-title">Research Internship</h3>
-      <div class="tl-subtitle">SJTU — Artificial Intelligence Institute, DeepVision Lab</div>
-      <div class="tl-date">October 2024 – Present</div>
-      <div class="tl-body">
-        <div class="label">Responsibilities include:</div>
-        <ul>
-          <li>PEFT (Parameter-Efficient Fine-Tuning) research</li>
-          <li>Model merging related research</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 # 📂 Projects
 
