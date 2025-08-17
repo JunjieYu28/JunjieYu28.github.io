@@ -209,11 +209,22 @@ My research interest includes neural machine translation and computer vision. I 
 }
 
 .project-card{
-  border:1px solid var(--pj-card-bd); background:var(--pj-card-bg); color:var(--pj-card-tx);
-  border-radius:12px; padding:12px 14px; transition:border-color .18s, transform .12s, box-shadow .2s;
-  display:flex; flex-direction:column; gap:8px;
+  border:1px solid var(--pj-card-bd);
+  /* background:var(--pj-card-bg);  ← 去掉背景 */
+  color:var(--pj-card-tx);
+  border-radius:12px;
+  padding:12px 14px;
+  transition:border-color .18s, transform .12s, box-shadow .2s;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  box-shadow:none; /* 去掉阴影 */
 }
-.project-card:hover{ border-color:var(--pj-hover-bd); transform:translateY(-2px); box-shadow:var(--pj-shadow); }
+.project-card:hover{
+  border-color:var(--pj-hover-bd);
+  transform:translateY(-2px);
+  /* box-shadow:var(--pj-shadow); ← 去掉悬浮阴影 */
+}
 
 .project-title{ font-size:16px; font-weight:700; line-height:1.25; margin:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .project-title a{ color:inherit; text-decoration:none; }
@@ -230,11 +241,21 @@ My research interest includes neural machine translation and computer vision. I 
 .meta-right{ margin-left:auto; }
 .pj-badge{
   display:inline-block;
-  font-size:12px; line-height:1; padding:6px 10px; border-radius:999px;
-  background:var(--pj-badge-bg); color:var(--pj-badge-tx); border:1px solid var(--pj-badge-bd);
-  font-weight:600; white-space:nowrap; vertical-align:middle;
+  font-size:12px; line-height:1;
+  padding:6px 10px;
+  border-radius:999px;
+  background:var(--pj-badge-bg);
+  color:var(--pj-badge-tx);
+  border:1px solid var(--pj-badge-bd);
+  font-weight:600;
+  white-space:nowrap;
+  vertical-align:middle;
 }
-.pj-badge.pj-private{ background:var(--pj-badge-bg-private); color:var(--pj-badge-tx-private); border-color:var(--pj-badge-bd-private); }
+.pj-badge.pj-private{
+  background:var(--pj-badge-bg-private);
+  color:var(--pj-badge-tx-private);
+  border-color:var(--pj-badge-bd-private);
+}
 
 .more-projects{ margin-top:6px; text-align:right; }
 .more-projects a{ font-weight:600; text-decoration:none; }
