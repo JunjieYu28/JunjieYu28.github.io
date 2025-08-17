@@ -111,7 +111,7 @@ My research interest includes neural machine translation and computer vision. I 
   <div class="edu-item">
     <div class="edu-time">2020.09 – 2023.06</div>
     <div class="edu-school">
-      <a href="https://www.cq8z.net/" target="_blank" rel="noopener">重庆第八中学校</a>
+      <a href="https://cqbz.cn/" target="_blank" rel="noopener">重庆第八中学校</a>
     </div>
   </div>
 
@@ -123,6 +123,63 @@ My research interest includes neural machine translation and computer vision. I 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
+
+<style>
+/* ===== Internship section styles ===== */
+:root{
+  --intern-text:#111827;
+  --intern-muted:#6b7280;
+  --intern-accent:#0b5bd3;
+  --intern-border:#e5e7eb;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --intern-text:#c9d1d9;
+    --intern-muted:#8b949e;
+    --intern-accent:#58a6ff;
+    --intern-border:#30363d;
+  }
+}
+
+.intern-list{ display:flex; flex-direction:column; gap:10px; margin:6px 0 0; }
+.intern-item{ padding:10px 12px; border:1px solid var(--intern-border); border-radius:10px; }
+.intern-time{ font-size:14px; color:var(--intern-muted); margin-bottom:4px; }
+.intern-title{ font-size:16px; font-weight:700; color:var(--intern-text); }
+.intern-org{ font-size:14px; color:var(--intern-accent); margin-bottom:6px; }
+.intern-resp{ font-size:13px; color:var(--intern-muted); margin-top:4px; }
+.intern-resp ul{ margin:4px 0 0 18px; }
+</style>
+
+<div class="intern-list">
+
+  <!-- 1) Summer Research Internship -->
+  <div class="intern-item">
+    <div class="intern-time">2024.07 – 2024.09</div>
+    <div class="intern-title">Summer Research Internship</div>
+    <div class="intern-org">SJTU – Artificial Intelligence Institute, DeepVision Lab</div>
+    <div class="intern-resp">
+      <ul>
+        <li>Explored <strong>Computer Vision</strong> fundamentals.</li>
+        <li>Learned to read research papers and reproduced basic CV algorithms.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 2) Research Internship -->
+  <div class="intern-item">
+    <div class="intern-time">2024.10 – Present</div>
+    <div class="intern-title">Research Internship</div>
+    <div class="intern-org">SJTU – Artificial Intelligence Institute, DeepVision Lab</div>
+    <div class="intern-resp">
+      <ul>
+        <li>Conducting research on <strong>Parameter-Efficient Fine-Tuning (PEFT)</strong>.</li>
+        <li>Working on <strong>Model Merging</strong> related research.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
 
 # 📂 Projects
 
