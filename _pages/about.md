@@ -42,16 +42,33 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** --> 
 
+# 📝 Publications
+
+<style>
+.pub-list{ display:flex; flex-direction:column; gap:10px; margin:6px 0 0; }
+.pub-item{ padding:10px 12px; border:1px solid var(--edu-border, #e5e7eb); border-radius:10px; }
+.pub-title{ font-size:15px; font-weight:700; line-height:1.35; margin:0 0 4px; }
+.pub-title a{ color:inherit; text-decoration:none; }
+.pub-title a:hover{ text-decoration:underline; }
+.pub-venue{ font-size:13px; color:var(--edu-muted, #6b7280); }
+</style>
+
+<div class="pub-list">
+  <div class="pub-item">
+    <p class="pub-title"><a href="https://arxiv.org/abs/2603.21986" target="_blank" rel="noopener">Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model</a></p>
+    <div class="pub-venue">arXiv preprint</div>
+  </div>
+</div>
+
 # 🔬 My Research
 <!-- 在这里添加您的研究方向和兴趣 -->
-- **Research Interests**: Multi-modal understanding, Diffusion Models, CV, AI for games
-- **Current Focus**: Multi-model understanding
+- **Research Interests**: Agent, Multimodal, Large Language Model, AI for games
+- **Current Focus**: Agent & Multimodal
 <!-- - **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 # 🎖 Honors and Awards
-- *2023.12* 致远荣誉奖学金
-- *2024.11* 本科生C等优秀奖学金
-- *2024.12* 致远荣誉奖学金
+- *2024, 2025* Zhiyuan Honors Scholarship <br><small style="color:#6b7280;font-size:12px;">Award for top students majoring in science.</small>
+- *2024, 2025* Undergraduate Academic Excellence Scholarship (Grade C) <br><small style="color:#6b7280;font-size:12px;">Awarded to students with outstanding comprehensive evaluation rankings.</small>
 
 # 📖 Educations
 
@@ -96,20 +113,12 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
   <div class="edu-item">
     <div class="edu-time">2023.09 – now</div>
     <div class="edu-school">
-      <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">上海交通大学</a>
+      <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a>
     </div>
     <div class="edu-programs">
-      <span class="edu-program">人工智能卓越人才试点班</span>
+      <span class="edu-program">BEng Artificial Intelligence</span>
       <span class="edu-sep">·</span>
-      <span class="edu-program">致远工科荣誉计划</span>
-    </div>
-  </div>
-
-  <!-- 2) CQ No.8 -->
-  <div class="edu-item">
-    <div class="edu-time">2020.09 – 2023.06</div>
-    <div class="edu-school">
-      <a href="https://cqbz.cn/" target="_blank" rel="noopener">重庆第八中学校</a>
+      <span class="edu-program">Zhiyuan Honors Program</span>
     </div>
   </div>
 
@@ -165,12 +174,28 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
   <!-- 2) Research Internship -->
   <div class="intern-item">
-    <div class="intern-time">2025.03 – Present</div>
+    <div class="intern-time">2025.03 – 2025.12</div>
     <div class="intern-title">Research Internship</div>
     <div class="intern-org">SJTU – Artificial Intelligence Institute, DeepVision Lab</div>
     <div class="intern-resp">
       <ul>
         <li>Conducting research on <strong>MultiModel Large Language Model</strong>.</li>
+        <li>Conducting research on <strong>token pruning</strong> for multimodal models.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 3) SII GAIR Lab -->
+  <div class="intern-item">
+    <div class="intern-time">2025.12 – Present</div>
+    <div class="intern-title">Research Internship</div>
+    <div class="intern-org">SJTU – SII GAIR Lab</div>
+    <div class="intern-resp">
+      <ul>
+        <li>First author of <strong>AcademiClaw</strong>, a benchmark for OpenClaw.</li>
+        <li>Contributor to <a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener"><strong>davinci-magihuman</strong></a> (a video generation model).</li>
+        <li>Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming.</li>
+        <li>Participated in the development of <strong>WeSay</strong> (a speech recognition app).</li>
       </ul>
     </div>
   </div>
