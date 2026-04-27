@@ -6,9 +6,6 @@ main:
   - title: "Research"
     url: "/#-my-research"
 
-  - title: "Publications"
-    url: "/#-publications"
-
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
@@ -17,6 +14,9 @@ main:
 
   - title: "Internships"
     url: "/#-internships"
+
+  - title: "Publications"
+    url: "/#-publications"
 
   - title: "Projects"
     url: "/#-projects"

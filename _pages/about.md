@@ -40,25 +40,7 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** --> 
-
-# 📝 Publications
-
-<style>
-.pub-list{ display:flex; flex-direction:column; gap:10px; margin:6px 0 0; }
-.pub-item{ padding:10px 12px; border:1px solid var(--edu-border, #e5e7eb); border-radius:10px; }
-.pub-title{ font-size:15px; font-weight:700; line-height:1.35; margin:0 0 4px; }
-.pub-title a{ color:inherit; text-decoration:none; }
-.pub-title a:hover{ text-decoration:underline; }
-.pub-venue{ font-size:13px; color:var(--edu-muted, #6b7280); }
-</style>
-
-<div class="pub-list">
-  <div class="pub-item">
-    <p class="pub-title"><a href="https://arxiv.org/abs/2603.21986" target="_blank" rel="noopener">Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model</a></p>
-    <div class="pub-venue">arXiv preprint</div>
-  </div>
-</div>
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🔬 My Research
 <!-- 在这里添加您的研究方向和兴趣 -->
@@ -68,7 +50,7 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
 # 🎖 Honors and Awards
 - *2024, 2025* Zhiyuan Honors Scholarship <br><small style="color:#6b7280;font-size:12px;">Award for top students majoring in science.</small>
-- *2024, 2025* Undergraduate Academic Excellence Scholarship (Grade C) <br><small style="color:#6b7280;font-size:12px;">Awarded to students with outstanding comprehensive evaluation rankings.</small>
+- *2024, 2025* Undergraduate Excellence Scholarship <br><small style="color:#6b7280;font-size:12px;">Awarded to students with outstanding comprehensive evaluation rankings.</small>
 
 # 📖 Educations
 
@@ -202,6 +184,24 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
 </div>
 
+
+# 📝 Publications
+
+<style>
+.pub-list{ display:flex; flex-direction:column; gap:10px; margin:6px 0 0; }
+.pub-item{ padding:10px 12px; border:1px solid var(--edu-border, #e5e7eb); border-radius:10px; }
+.pub-title{ font-size:15px; font-weight:700; line-height:1.35; margin:0 0 4px; }
+.pub-title a{ color:inherit; text-decoration:none; }
+.pub-title a:hover{ text-decoration:underline; }
+.pub-venue{ font-size:13px; color:var(--edu-muted, #6b7280); }
+</style>
+
+<div class="pub-list">
+  <div class="pub-item">
+    <p class="pub-title"><a href="https://arxiv.org/abs/2603.21986" target="_blank" rel="noopener">Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model</a></p>
+    <div class="pub-venue">arXiv preprint</div>
+  </div>
+</div>
 
 # 📂 Projects
 
