@@ -1,0 +1,180 @@
+%──────────────────────────────────────────────
+%  Junjie Yu – Academic CV  (single-page, styled)
+%  Compile:  pdflatex CV.tex  (run twice)
+%──────────────────────────────────────────────
+\documentclass[11pt,a4paper]{article}
+
+% ─── Geometry ───
+\usepackage[top=0.4in,bottom=0.4in,left=0.55in,right=0.55in]{geometry}
+
+% ─── Fonts ───
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% ─── Colour & links ───
+\usepackage[dvipsnames]{xcolor}
+\definecolor{accent}{HTML}{1A5276}      % deep blue for headings
+\definecolor{linkblue}{HTML}{2471A3}    % lighter blue for links
+\definecolor{rulecolor}{HTML}{2E86C1}   % section rule color
+\definecolor{muted}{HTML}{5D6D7E}       % muted text
+\usepackage[colorlinks=true,urlcolor=linkblue,linkcolor=linkblue]{hyperref}
+
+% ─── Icons ───
+\usepackage{fontawesome5}
+
+% ─── Lists ───
+\usepackage{enumitem}
+\setlist[itemize]{nosep,left=0pt .. 1.4em,label={\color{accent}\textbullet},topsep=1pt,itemsep=0.5pt}
+
+% ─── Section formatting ───
+\usepackage{titlesec}
+\titleformat{\section}{%
+  \color{accent}\normalsize\bfseries\uppercase%
+}{}{0em}{}[\vspace{1pt}{\color{rulecolor}\hrule height 0.8pt}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+
+% ─── Misc ───
+\usepackage{tabularx}
+\usepackage{graphicx}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% ─── Helper: thin separator ───
+\newcommand{\entrysep}{\vspace{3pt}}
+
+% ─── Helper: experience entry ───
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill{\color{muted}\textit{#2}}\\[-1pt]
+  {\color{muted}#3}\hfill{\color{muted}\textit{#4}}\par\vspace{1pt}%
+}
+
+% ─── Helper: project entry ───
+\newcommand{\projectentry}[3]{%
+  {\small\href{#1}{\textbf{\color{accent}#2}} {\color{muted}|} #3}\par\vspace{1.5pt}%
+}
+
+% ─── Helper: award entry ───
+\newcommand{\awardentry}[3]{%
+  \textbf{#1}\hfill{\color{muted}#2}\\[-2pt]
+  {\small\color{muted}#3}\par\vspace{2pt}%
+}
+
+\begin{document}
+
+% ════════════════════════════════════════════
+%  HEADER
+% ════════════════════════════════════════════
+\begin{center}
+  {\fontsize{22}{26}\selectfont\bfseries\color{accent} Junjie Yu}\\[6pt]
+  {\small\color{muted}%
+    \faEnvelope\enspace\href{mailto:YuJunjie-yjj@sjtu.edu.cn}{YuJunjie-yjj@sjtu.edu.cn}%
+    \enspace{\color{rulecolor}\textbar}\enspace%
+    \faGlobe\enspace\href{https://junjieyu28.github.io}{junjieyu28.github.io}%
+    \enspace{\color{rulecolor}\textbar}\enspace%
+    \faGithub\enspace\href{https://github.com/JunjieYu28}{JunjieYu28}%
+  }
+\end{center}
+
+\vspace{-2pt}
+
+% ════════════════════════════════════════════
+%  EDUCATION
+% ════════════════════════════════════════════
+\section{Education}
+
+\entry{Shanghai Jiao Tong University}{Sep 2023 -- Present}
+{BEng in Artificial Intelligence \enspace$\cdot$\enspace Zhiyuan Honors Program}{Shanghai, China}
+{\small Average Score: 89.18\,/\,100 \enspace$\cdot$\enspace Rank: 34\,/\,98}
+
+% ════════════════════════════════════════════
+%  PUBLICATIONS
+% ════════════════════════════════════════════
+\section{Publications}
+
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/2603.21986}{Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model}.\\ \textit{arXiv preprint}, 2026.
+\end{itemize}
+
+% ════════════════════════════════════════════
+%  RESEARCH EXPERIENCE
+% ════════════════════════════════════════════
+\section{Research Experience}
+
+\entry{Research Internship}{Dec 2025 -- Present}
+{SJTU \& SII -- \href{https://plms.ai/index.html}{GAIR Lab}\enspace$\cdot$\enspace Mentor: \href{https://plms.ai/}{Pengfei Liu}}{Shanghai, China}
+\begin{itemize}
+  \item First author \& Project leader of \textbf{AcademiClaw}, a benchmark for OpenClaw.
+  \item Participant in \href{https://huggingface.co/GAIR/daVinci-MagiHuman}{\textbf{davinci-magihuman}}.
+  \item Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming. {\small\color{muted}[Soon Public]}
+  \item Participated in the development of \textbf{Wesay} (a speech recognition app). {\small\color{muted}[Private Repo]}
+\end{itemize}
+
+\entrysep
+
+\entry{Research Internship}{Mar 2025 -- Dec 2025}
+{SJTU -- Artificial Intelligence Institute, DeepVision Lab\enspace$\cdot$\enspace Mentor: \href{https://shenwei1231.github.io/}{Wei Shen}}{Shanghai, China}
+\begin{itemize}
+  \item Conducting research on \textbf{MultiModal Large Language Model}.
+  \item Participated in training a GUI recognition model for future GUI Agent (collaborative project with Huawei). Responsible for data synthesis, annotation, and cleaning.
+  \item Conducting research on \textbf{visual token pruning} for multimodal models.
+\end{itemize}
+
+\entrysep
+
+\entry{Summer Research Internship}{Jul 2024 -- Sep 2024}
+{SJTU -- Artificial Intelligence Institute, DeepVision Lab\enspace$\cdot$\enspace Mentor: \href{https://shenwei1231.github.io/}{Wei Shen}}{Shanghai, China}
+\begin{itemize}
+  \item Explored \textbf{Computer Vision} fundamentals; read research papers and reproduced basic CV algorithms.
+\end{itemize}
+
+% ════════════════════════════════════════════
+%  PROJECTS
+% ════════════════════════════════════════════
+\section{Projects}
+
+\projectentry{https://github.com/JunjieYu28/RAG-TA}{RAG-TA}
+{A RAG Teaching Assistant System.\enspace\textit{\small Python}}
+
+\projectentry{https://github.com/JunjieYu28/Paper-RAG}{Paper-RAG}
+{An intent-aware paper recommendation and research assistant powered by RAG.\enspace\textit{\small Python}}
+
+\projectentry{https://github.com/JunjieYu28/GUI-Project}{GUI-Project}
+{Data preparation for training a GUI recognition model for future GUI Agent.\enspace\textit{\small Python}}
+
+\projectentry{https://github.com/JunjieYu28/ViT-on-Image-Classification}{ViT-on-Image-Classification}
+{ViT on image classification, esp.\ small-scale datasets (CIFAR-10).\enspace\textit{\small Jupyter Notebook}}
+
+% ════════════════════════════════════════════
+%  HONORS & AWARDS
+% ════════════════════════════════════════════
+\section{Honors \& Awards}
+
+\awardentry{Zhiyuan Honors Scholarship}{2024, 2025}
+{Award for top students majoring in science.}
+
+\awardentry{Undergraduate Excellence Scholarship}{2024, 2025}
+{Awarded to students with outstanding comprehensive evaluation rankings.}
+
+% ════════════════════════════════════════════
+%  RESEARCH INTERESTS
+% ════════════════════════════════════════════
+\section{Research Interests}
+
+Agent,\enspace Multimodal,\enspace Large Language Model,\enspace AI for Games%
+\hfill{\color{accent}\textbf{Current Focus:}} Agent \& Multimodal
+
+% ════════════════════════════════════════════
+%  SKILLS
+% ════════════════════════════════════════════
+\section{Skills}
+
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\color{accent}}l@{\enspace}X@{}}
+  Programming & Python, C++ \\
+  Agent       & Claude Code, Codex, Cursor, OpenClaw \\
+  Tools       & Git, Linux, \LaTeX, Docker, PyTorch \\
+  Languages   & Chinese (native), English (fluent) \\
+\end{tabularx}
+
+\end{document}
