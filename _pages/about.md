@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. My research interests center on large language models and computer vision. I am currently focusing on multimodal understanding. I have gained practical experience through coursework and research projects. I am eager to further explore these areas and welcome opportunities to exchange ideas and collaborate with peers who share similar interests.
+I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. My research interests center on Agent, Multimodal, and Large Language Models. I am currently focusing on Agent and Multimodal research. I have gained practical experience through coursework and research projects. I am eager to further explore these areas and welcome opportunities to exchange ideas and collaborate with peers who share similar interests.
 
 
 <!--
@@ -161,8 +161,9 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
     <div class="intern-org">SJTU – Artificial Intelligence Institute, DeepVision Lab</div>
     <div class="intern-resp">
       <ul>
-        <li>Conducting research on <strong>MultiModel Large Language Model</strong>.</li>
-        <li>Conducting research on <strong>token pruning</strong> for multimodal models.</li>
+        <li>Conducting research on <strong>MultiModal Large Language Model</strong>.</li>
+        <li>Participated in a collaborative project with Huawei, training a GUI recognition model for future GUI Agent. Responsible for data synthesis, annotation, and cleaning.</li>
+        <li>Conducting research on <strong>visual token pruning</strong> for multimodal models.</li>
       </ul>
     </div>
   </div>
@@ -171,13 +172,13 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
   <div class="intern-item">
     <div class="intern-time">2025.12 – Present</div>
     <div class="intern-title">Research Internship</div>
-    <div class="intern-org">SJTU – SII GAIR Lab</div>
+    <div class="intern-org"><a href="https://plms.ai/index.html" target="_blank" rel="noopener">SJTU & SII – GAIR Lab</a></div>
     <div class="intern-resp">
       <ul>
-        <li>First author of <strong>AcademiClaw</strong>, a benchmark for OpenClaw.</li>
-        <li>Contributor to <a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener"><strong>davinci-magihuman</strong></a> (a video generation model).</li>
+        <li>First author & Project leader of <strong>AcademiClaw</strong>, a benchmark for OpenClaw.</li>
+        <li>Participant in <a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener"><strong>davinci-magihuman</strong></a>.</li>
         <li>Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming.</li>
-        <li>Participated in the development of <strong>WeSay</strong> (a speech recognition app).</li>
+        <li>Participated in the development of <strong>WeSay</strong> (a speech recognition app). <small style="color:#6b7280;">[Private repo]</small></li>
       </ul>
     </div>
   </div>
@@ -288,8 +289,8 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
   <!-- 1 -->
   <div class="project-card">
-    <h3 class="project-title"><a href="https://github.com/JunjieYu28/GUI-Project" target="_blank" rel="noopener">GUI-Project</a></h3>
-    <p class="project-desc">Data preparation for training a GUI recognition model for future GUI Agent.</p>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/RAG-TA" target="_blank" rel="noopener">RAG-TA</a></h3>
+    <p class="project-desc">A RAG Teaching Assistant System.</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
@@ -298,30 +299,30 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
   <!-- 2 -->
   <div class="project-card">
-    <h3 class="project-title"><a href="https://github.com/JunjieYu28/ViT-on-Image-Classification" target="_blank" rel="noopener">ViT-on-Image-Classification</a></h3>
-    <p class="project-desc">ViT on image classification, esp. small-scale datasets (CIFAR-10).</p>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/Paper-RAG" target="_blank" rel="noopener">Paper-RAG</a></h3>
+    <p class="project-desc">An intent-aware paper recommendation and research assistant powered by RAG.</p>
     <div class="project-meta">
-      <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
 
   <!-- 3 -->
   <div class="project-card">
-    <h3 class="project-title"><a href="https://github.com/JunjieYu28/Regression-and-Classification-Prediction-of-Travellers" target="_blank" rel="noopener">Regression-and-Classification-Prediction-of-Travellers</a></h3>
-    <p class="project-desc">Prediction of travellers based on historical travelling datasets (ml).</p>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/GUI-Project" target="_blank" rel="noopener">GUI-Project</a></h3>
+    <p class="project-desc">Data preparation for training a GUI recognition model for future GUI Agent.</p>
     <div class="project-meta">
-      <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
 
   <!-- 4 -->
   <div class="project-card">
-    <h3 class="project-title"><a href="https://github.com/JunjieYu28/Voice-Based-Car-Controll" target="_blank" rel="noopener">Voice-Based-Car-Controll</a></h3>
-    <p class="project-desc">A voice-controlled car powered by an speech recognition model trained on Edge Impulse and an ESP32 microcontroller.</p>
+    <h3 class="project-title"><a href="https://github.com/JunjieYu28/ViT-on-Image-Classification" target="_blank" rel="noopener">ViT-on-Image-Classification</a></h3>
+    <p class="project-desc">ViT on image classification, esp. small-scale datasets (CIFAR-10).</p>
     <div class="project-meta">
-      <span class="meta-left"><span class="lang-dot" style="background:#555"></span>C</span>
+      <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
