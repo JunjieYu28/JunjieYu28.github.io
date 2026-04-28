@@ -1,3 +1,7 @@
 _site/
 push.sh
 .DS_Store
+cv/*.tex
+cv/*.aux
+cv/*.log
+cv/*.out
