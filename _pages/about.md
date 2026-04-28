@@ -17,6 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<style>
+/* Global: no underline by default, underline on hover */
+a{ text-decoration:none; }
+a:hover{ text-decoration:underline; }
+</style>
+
 I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. My research interests center on Agent, Multimodal, and Large Language Models. I am currently focusing on Agent and Multimodal research. I have gained practical experience through coursework and research projects. I am eager to further explore these areas and welcome opportunities to exchange ideas and collaborate with peers who share similar interests.
 
 
@@ -162,7 +168,7 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
     <div class="intern-resp">
       <ul>
         <li>Conducting research on <strong>MultiModal Large Language Model</strong>.</li>
-        <li>Participated in a collaborative project with Huawei, training a GUI recognition model for future GUI Agent. Responsible for data synthesis, annotation, and cleaning.</li>
+        <li>Participated in training a GUI recognition model for future GUI Agent (collaborative project with Huawei). Responsible for data synthesis, annotation, and cleaning.</li>
         <li>Conducting research on <strong>visual token pruning</strong> for multimodal models.</li>
       </ul>
     </div>
@@ -172,12 +178,12 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
   <div class="intern-item">
     <div class="intern-time">2025.12 – Present</div>
     <div class="intern-title">Research Internship</div>
-    <div class="intern-org"><a href="https://plms.ai/index.html" target="_blank" rel="noopener">SJTU & SII – GAIR Lab</a></div>
+    <div class="intern-org">SJTU & SII – <a href="https://plms.ai/index.html" target="_blank" rel="noopener">GAIR Lab</a></div>
     <div class="intern-resp">
       <ul>
         <li>First author & Project leader of <strong>AcademiClaw</strong>, a benchmark for OpenClaw.</li>
         <li>Participant in <a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener"><strong>davinci-magihuman</strong></a>.</li>
-        <li>Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming.</li>
+        <li>Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming. <small style="color:#6b7280;">[Soon Public]</small></li>
         <li>Participated in the development of <strong>WeSay</strong> (a speech recognition app). <small style="color:#6b7280;">[Private repo]</small></li>
       </ul>
     </div>
