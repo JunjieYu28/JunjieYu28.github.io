@@ -311,8 +311,8 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
   <!-- 1 -->
   <div class="project-card">
-    <h3 class="project-title"><a href="https://github.com/JunjieYu28/RAG-TA" target="_blank" rel="noopener">RAG-TA</a></h3>
-    <p class="project-desc">A RAG Teaching Assistant System.</p>
+    <h3 class="project-title"><a href="https://github.com/GAIR-NLP/AcademiClaw" target="_blank" rel="noopener">AcademiClaw</a></h3>
+    <p class="project-desc">The first academic-level benchmark for OpenClaw sourced directly from undergraduate students.</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
