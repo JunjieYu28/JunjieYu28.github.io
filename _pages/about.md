@@ -181,7 +181,7 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
     <div class="intern-org">SJTU & SII – <a href="https://plms.ai/index.html" target="_blank" rel="noopener">GAIR Lab</a></div>
     <div class="intern-resp">
       <ul>
-        <li>First author & Project leader of <strong>AcademiClaw</strong>, a benchmark for OpenClaw.</li>
+        <li>First author & Project leader of <a href="https://arxiv.org/abs/2605.02661" target="_blank" rel="noopener"><strong>AcademiClaw</strong></a>, a benchmark for OpenClaw.</li>
         <li>Participant in <a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener"><strong>davinci-magihuman</strong></a>.</li>
         <li>Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming. <small style="color:#6b7280;">[Soon Public]</small></li>
         <li>Participated in the development of <strong>WeSay</strong> (a speech recognition app). <small style="color:#6b7280;">[Private repo]</small></li>
@@ -210,18 +210,18 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
     <p class="pub-title"><a href="https://arxiv.org/abs/2605.02661" target="_blank" rel="noopener">AcademiClaw: When Students Set Challenges for AI Agents</a></p>
     <div class="pub-venue"><strong>Junjie Yu</strong>, Pengrui Lu, Weiye Si, et al. &mdash; arXiv preprint, 2026.</div>
     <ul class="pub-highlights">
-      <li>80 complex, long-horizon tasks curated from 230 student submissions across 25+ domains (bilingual).</li>
-      <li>Best frontier model achieves only ~55% pass rate, revealing sharp capability boundaries.</li>
-      <li>Multi-dimensional scoring combining six complementary techniques + five-category safety audit.</li>
+      <li>The first academic-level benchmark for OpenClaw sourced directly from undergraduate students.</li>
+      <li>80 complex, long-horizon tasks across 25+ domains; best frontier model achieves only ~55% pass rate.</li>
+      <li>Contributes to evaluating academic capabilities and advancing the OpenClaw community.</li>
     </ul>
   </div>
   <div class="pub-item">
     <p class="pub-title"><a href="https://arxiv.org/abs/2603.21986" target="_blank" rel="noopener">Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model</a></p>
     <div class="pub-venue">arXiv preprint, 2026.</div>
     <ul class="pub-highlights">
-      <li>Single-stream Transformer jointly generating synchronized video and audio without cross-attention.</li>
-      <li>Generates a 5-second 256p clip in ~2s on a single H100; supports 6+ languages.</li>
-      <li>80% win rate vs. Ovi 1.1 and lowest WER (14.60%) among open-source models.</li>
+      <li>First open-source model to achieve joint audio-video generation with a pure single-stream Transformer.</li>
+      <li>80% win rate over Ovi 1.1 and 60.9% over LTX 2.3 in human evaluation, reaching open-source SOTA.</li>
+      <li>Generates a 5-second clip in ~2s on a single H100; supports 6+ languages.</li>
     </ul>
   </div>
 </div>
