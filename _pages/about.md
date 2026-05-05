@@ -205,8 +205,12 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
 <div class="pub-list">
   <div class="pub-item">
+    <p class="pub-title"><a href="https://arxiv.org/abs/2605.02661" target="_blank" rel="noopener">AcademiClaw: When Students Set Challenges for AI Agents</a></p>
+    <div class="pub-venue"><strong>Junjie Yu</strong>, Pengrui Lu, Weiye Si, et al. &mdash; arXiv preprint, 2026.</div>
+  </div>
+  <div class="pub-item">
     <p class="pub-title"><a href="https://arxiv.org/abs/2603.21986" target="_blank" rel="noopener">Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model</a></p>
-    <div class="pub-venue">arXiv preprint</div>
+    <div class="pub-venue">arXiv preprint, 2026.</div>
   </div>
 </div>
 
