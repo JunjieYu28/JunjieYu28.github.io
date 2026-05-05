@@ -201,16 +201,28 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 .pub-title a{ color:inherit; text-decoration:none; }
 .pub-title a:hover{ text-decoration:underline; }
 .pub-venue{ font-size:13px; color:var(--edu-muted, #6b7280); }
+.pub-highlights{ font-size:12.5px; color:var(--edu-muted, #6b7280); margin:4px 0 0 0; padding:0; list-style:none; }
+.pub-highlights li::before{ content:"▸ "; color:var(--edu-accent, #0b5bd3); }
 </style>
 
 <div class="pub-list">
   <div class="pub-item">
     <p class="pub-title"><a href="https://arxiv.org/abs/2605.02661" target="_blank" rel="noopener">AcademiClaw: When Students Set Challenges for AI Agents</a></p>
     <div class="pub-venue"><strong>Junjie Yu</strong>, Pengrui Lu, Weiye Si, et al. &mdash; arXiv preprint, 2026.</div>
+    <ul class="pub-highlights">
+      <li>80 complex, long-horizon tasks curated from 230 student submissions across 25+ domains (bilingual).</li>
+      <li>Best frontier model achieves only ~55% pass rate, revealing sharp capability boundaries.</li>
+      <li>Multi-dimensional scoring combining six complementary techniques + five-category safety audit.</li>
+    </ul>
   </div>
   <div class="pub-item">
     <p class="pub-title"><a href="https://arxiv.org/abs/2603.21986" target="_blank" rel="noopener">Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model</a></p>
     <div class="pub-venue">arXiv preprint, 2026.</div>
+    <ul class="pub-highlights">
+      <li>Single-stream Transformer jointly generating synchronized video and audio without cross-attention.</li>
+      <li>Generates a 5-second 256p clip in ~2s on a single H100; supports 6+ languages.</li>
+      <li>80% win rate vs. Ovi 1.1 and lowest WER (14.60%) among open-source models.</li>
+    </ul>
   </div>
 </div>
 
