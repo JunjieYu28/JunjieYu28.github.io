@@ -23,7 +23,7 @@ a{ text-decoration:none; }
 a:hover{ text-decoration:underline; }
 </style>
 
-I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. My research interests center on Agent, Multimodal, and Large Language Models. I am currently focusing on Agent and Multimodal research. I have gained practical experience through coursework and research projects. I am eager to further explore these areas and welcome opportunities to exchange ideas and collaborate with peers who share similar interests.
+I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. My research interests include Cyber Security, Large Language Model, Agent, and AI for Games. I am currently focusing on Cyber Security and LLM research. I have gained practical experience through coursework and research projects. I am eager to further explore these areas and welcome opportunities to exchange ideas and collaborate with peers who share similar interests.
 
 
 <!--
@@ -50,12 +50,18 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
 # 🔬 My Research
 <!-- 在这里添加您的研究方向和兴趣 -->
-- **Research Interests**: Agent, Multimodal, Large Language Model, AI for games
-- **Current Focus**: Agent & Multimodal
+- **Research Interests**: Cyber Security, Large Language Model, Agent, AI for Games
+- **Current Focus**: Cyber Security & LLM
 <!-- - **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
+# Skills
+- **Programming**: Python, C++
+- **Agent Tools**: Codex, Claude Code, OpenClaw
+- **Tools**: Git, Linux, LaTeX, Docker, PyTorch
+- **Languages**: Chinese (native), English (fluent)
+
 # 🎖 Honors and Awards
-- *2024, 2025* Zhiyuan Honors Scholarship <br><small style="color:#6b7280;font-size:12px;">Award for top students majoring in science.</small>
+- *2023, 2024, 2025* Zhiyuan Honors Scholarship <br><small style="color:#6b7280;font-size:12px;">Award for top students majoring in science.</small>
 - *2024, 2025* Undergraduate Excellence Scholarship <br><small style="color:#6b7280;font-size:12px;">Awarded to students with outstanding comprehensive evaluation rankings.</small>
 
 # 📖 Educations
@@ -93,6 +99,7 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
   font-weight:600;
 }
 .edu-sep{ margin:0 6px; color:var(--edu-muted); }
+.edu-metrics{ margin-top:4px; font-size:13px; color:var(--edu-muted); }
 </style>
 
 <div class="edu-list">
@@ -108,6 +115,7 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
       <span class="edu-sep">·</span>
       <span class="edu-program">Zhiyuan Honors Program</span>
     </div>
+    <div class="edu-metrics">Average Score: 89.34 / 100 · Rank: 35 / 98</div>
   </div>
 
 </div>
@@ -181,6 +189,7 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
     <div class="intern-org">SJTU & SII – <a href="https://plms.ai/index.html" target="_blank" rel="noopener">GAIR Lab</a></div>
     <div class="intern-resp">
       <ul>
+        <li>Currently researching the cyber security capabilities of large language models.</li>
         <li>First author & Project leader of <a href="https://arxiv.org/abs/2605.02661" target="_blank" rel="noopener"><strong>AcademiClaw</strong></a>, a benchmark for OpenClaw.</li>
         <li>Participant in <a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener"><strong>davinci-magihuman</strong></a>.</li>
         <li>Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming. <small style="color:#6b7280;">[Soon Public]</small></li>
