@@ -23,7 +23,9 @@ a{ text-decoration:none; }
 a:hover{ text-decoration:underline; }
 </style>
 
-I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. My research interests include Cyber Security, Large Language Model, Agent, and AI for Games. I am currently focusing on Cyber Security and LLM research. I have gained practical experience through coursework and research projects. I am eager to further explore these areas and welcome opportunities to exchange ideas and collaborate with peers who share similar interests.
+I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. My research focuses on improving the cybersecurity capabilities of large language models by scaling training environments, tasks, and interaction data. At GAIR Lab, I independently owned the cybersecurity capability development work for [801-30B-A3B](https://github.com/GAIR-NLP/801-30B), from ARVO-based task design and large-scale rollout collection to model training and validation.
+
+I am currently building a pipeline that synthesizes cybersecurity environments and tasks from vulnerability information to further scale training. I am also interested in AI safety, particularly monitoring and controlling increasingly capable models. My broader interests include agents and AI for games, and I welcome opportunities to exchange ideas and collaborate.
 
 
 <!--
@@ -50,8 +52,10 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 
 # 🔬 My Research
 <!-- 在这里添加您的研究方向和兴趣 -->
-- **Research Interests**: Cyber Security, Large Language Model, Agent, AI for Games
+- **Research Interests**: Cyber Security, Large Language Model, AI Safety, Agent, AI for Games
 - **Current Focus**: Cyber Security & LLM
+- **Ongoing Research**: Scaling cybersecurity training through vulnerability-driven environment and task synthesis.
+- **Safety Interests**: Monitoring, safeguards, and control for increasingly capable models.
 <!-- - **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 # Skills
@@ -189,7 +193,10 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
     <div class="intern-org">SJTU & SII – <a href="https://plms.ai/index.html" target="_blank" rel="noopener">GAIR Lab</a></div>
     <div class="intern-resp">
       <ul>
-        <li>Currently researching the cyber security capabilities of large language models.</li>
+        <li>Independently owned the cybersecurity capability development work for <a href="https://github.com/GAIR-NLP/801-30B" target="_blank" rel="noopener"><strong>801-30B-A3B</strong></a>, covering task design, trajectory collection, model training, and validation.</li>
+        <li>Designed cybersecurity tasks using ARVO environments, excluding environments used by CyberGym, and built a trajectory collection pipeline supporting <strong>1,000+ concurrent rollouts</strong>.</li>
+        <li>The technical report records a <strong>38.90% CyberGym score for 801-30B-A3B Base+SFT</strong>, evaluated with Claude Code and a two-hour limit per task attempt (<a href="https://github.com/GAIR-NLP/801-30B/blob/main/report.pdf" target="_blank" rel="noopener">Table 9; evaluation setup in Section 8.1.2</a>).</li>
+        <li>Currently developing a pipeline to synthesize cybersecurity environments and tasks from vulnerability information, expanding the scale and diversity of training environments and tasks.</li>
         <li>First author & Project leader of <a href="https://arxiv.org/abs/2605.02661" target="_blank" rel="noopener"><strong>AcademiClaw</strong></a>, a benchmark for OpenClaw.</li>
         <li>Participant in <a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener"><strong>davinci-magihuman</strong></a>.</li>
         <li>Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming. <small style="color:#6b7280;">[Soon Public]</small></li>
@@ -201,7 +208,7 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 </div>
 
 
-# 📝 Publications
+# 📝 Publications & Technical Reports
 
 <style>
 .pub-list{ display:flex; flex-direction:column; gap:10px; margin:6px 0 0; }
@@ -215,6 +222,15 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 </style>
 
 <div class="pub-list">
+  <div class="pub-item">
+    <p class="pub-title"><a href="https://github.com/GAIR-NLP/801-30B/blob/main/report.pdf" target="_blank" rel="noopener">No Second Run: Does RSI Stop at Frontier Pre-training?</a></p>
+    <div class="pub-venue">SII &amp; Xinxu AI &mdash; Technical report, 2026. Contributor: <strong>Junjie Yu</strong>.</div>
+    <ul class="pub-highlights">
+      <li>Independently responsible for the cybersecurity capability development work in 801-30B-A3B.</li>
+      <li>ARVO-based task design with CyberGym environments excluded; trajectory collection at 1,000+ concurrent rollouts; model training and validation.</li>
+      <li>801-30B-A3B Base+SFT scores 38.90% on CyberGym (Table 9; Claude Code; two-hour limit per attempt).</li>
+    </ul>
+  </div>
   <div class="pub-item">
     <p class="pub-title"><a href="https://arxiv.org/abs/2605.02661" target="_blank" rel="noopener">AcademiClaw: When Students Set Challenges for AI Agents</a></p>
     <div class="pub-venue"><strong>Junjie Yu</strong>, Pengrui Lu, Weiye Si, et al. &mdash; arXiv preprint, 2026.</div>
@@ -317,6 +333,15 @@ I am an undergraduate student at Shanghai Jiao Tong University majoring in Artif
 </style>
 
 <div class="projects-grid">
+
+  <div class="project-card">
+    <h3 class="project-title"><a href="https://github.com/GAIR-NLP/801-30B" target="_blank" rel="noopener">801-30B-A3B</a></h3>
+    <p class="project-desc">Independently owned cybersecurity capability development: ARVO-based task design, 1,000+ concurrent rollout collection, and model training and validation. The report records a 38.90% CyberGym score for Base+SFT.</p>
+    <div class="project-meta">
+      <span class="meta-left">Cybersecurity</span>
+      <span class="meta-right"><span class="pj-badge">Technical Report</span></span>
+    </div>
+  </div>
 
   <!-- 1 -->
   <div class="project-card">
