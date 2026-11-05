@@ -208,7 +208,7 @@ I am currently building a pipeline that synthesizes cybersecurity environments a
 </div>
 
 
-# 📝 Publications & Technical Reports
+# 📝 Publications & Technical Reports {#-publications}
 
 <style>
 .pub-list{ display:flex; flex-direction:column; gap:10px; margin:6px 0 0; }
