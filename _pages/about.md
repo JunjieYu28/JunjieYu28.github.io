@@ -23,9 +23,9 @@ a{ text-decoration:none; }
 a:hover{ text-decoration:underline; }
 </style>
 
-I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. My research focuses on improving the cybersecurity capabilities of large language models by scaling training environments, tasks, and interaction data. At GAIR Lab, I independently owned the cybersecurity capability development work for [801-30B-A3B](https://github.com/GAIR-NLP/801-30B), from ARVO-based task design and large-scale rollout collection to model training and validation.
+I am an undergraduate student at Shanghai Jiao Tong University majoring in Artificial Intelligence, where I enrolled in Fall 2023. At GAIR Lab, I am the first author and project lead of [AcademiClaw](https://arxiv.org/abs/2605.02661), a benchmark for evaluating AI agents on academic tasks. I was also solely responsible for developing the cybersecurity capabilities of [801-30B-A3B](https://github.com/GAIR-NLP/801-30B).
 
-I am currently building a pipeline that synthesizes cybersecurity environments and tasks from vulnerability information to further scale training. I am also interested in AI safety, particularly monitoring and controlling increasingly capable models. My broader interests include agents and AI for games, and I welcome opportunities to exchange ideas and collaborate.
+My research interests include cybersecurity, large language models, AI safety, agents, and AI for games, with a current focus on cybersecurity and LLMs.
 
 
 <!--
