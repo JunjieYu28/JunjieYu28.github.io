@@ -54,8 +54,6 @@ I am currently building a pipeline that synthesizes cybersecurity environments a
 <!-- 在这里添加您的研究方向和兴趣 -->
 - **Research Interests**: Cyber Security, Large Language Model, AI Safety, Agent, AI for Games
 - **Current Focus**: Cyber Security & LLM
-- **Ongoing Research**: Scaling cybersecurity training through vulnerability-driven environment and task synthesis.
-- **Safety Interests**: Monitoring, safeguards, and control for increasingly capable models.
 <!-- - **Collaborations**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 # Skills
@@ -193,10 +191,8 @@ I am currently building a pipeline that synthesizes cybersecurity environments a
     <div class="intern-org">SJTU & SII – <a href="https://plms.ai/index.html" target="_blank" rel="noopener">GAIR Lab</a></div>
     <div class="intern-resp">
       <ul>
-        <li>Independently owned the cybersecurity capability development work for <a href="https://github.com/GAIR-NLP/801-30B" target="_blank" rel="noopener"><strong>801-30B-A3B</strong></a>, covering task design, trajectory collection, model training, and validation.</li>
-        <li>Designed cybersecurity tasks using ARVO environments, excluding environments used by CyberGym, and built a trajectory collection pipeline supporting <strong>1,000+ concurrent rollouts</strong>.</li>
-        <li>The technical report records a <strong>38.90% CyberGym score for 801-30B-A3B Base+SFT</strong>, evaluated with Claude Code and a two-hour limit per task attempt (<a href="https://github.com/GAIR-NLP/801-30B/blob/main/report.pdf" target="_blank" rel="noopener">Table 9; evaluation setup in Section 8.1.2</a>).</li>
         <li>Currently developing a pipeline to synthesize cybersecurity environments and tasks from vulnerability information, expanding the scale and diversity of training environments and tasks.</li>
+        <li>Independently developed cybersecurity capabilities for <a href="https://github.com/GAIR-NLP/801-30B" target="_blank" rel="noopener"><strong>801-30B-A3B</strong></a>, from ARVO-based task design and large-scale rollout collection to model training and validation.</li>
         <li>First author & Project leader of <a href="https://arxiv.org/abs/2605.02661" target="_blank" rel="noopener"><strong>AcademiClaw</strong></a>, a benchmark for OpenClaw.</li>
         <li>Participant in <a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener"><strong>davinci-magihuman</strong></a>.</li>
         <li>Built downstream applications based on davinci-magihuman, including digital human meetings and digital human live streaming. <small style="color:#6b7280;">[Soon Public]</small></li>
@@ -336,7 +332,7 @@ I am currently building a pipeline that synthesizes cybersecurity environments a
 
   <div class="project-card">
     <h3 class="project-title"><a href="https://github.com/GAIR-NLP/801-30B" target="_blank" rel="noopener">801-30B-A3B</a></h3>
-    <p class="project-desc">Independently owned cybersecurity capability development: ARVO-based task design, 1,000+ concurrent rollout collection, and model training and validation. The report records a 38.90% CyberGym score for Base+SFT.</p>
+    <p class="project-desc">Scaling cybersecurity capabilities through task design, rollout collection, and model training.</p>
     <div class="project-meta">
       <span class="meta-left">Cybersecurity</span>
       <span class="meta-right"><span class="pj-badge">Technical Report</span></span>
@@ -369,16 +365,6 @@ I am currently building a pipeline that synthesizes cybersecurity environments a
     <p class="project-desc">Data preparation for training a GUI recognition model for future GUI Agent.</p>
     <div class="project-meta">
       <span class="meta-left"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-      <span class="meta-right"><span class="pj-badge">Public</span></span>
-    </div>
-  </div>
-
-  <!-- 4 -->
-  <div class="project-card">
-    <h3 class="project-title"><a href="https://github.com/JunjieYu28/ViT-on-Image-Classification" target="_blank" rel="noopener">ViT-on-Image-Classification</a></h3>
-    <p class="project-desc">ViT on image classification, esp. small-scale datasets (CIFAR-10).</p>
-    <div class="project-meta">
-      <span class="meta-left"><span class="lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span>
       <span class="meta-right"><span class="pj-badge">Public</span></span>
     </div>
   </div>
